@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#mainBody{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 153, 0, 0.966),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+.nameBox{
+    width: 40%;
+}
+.nameBox>h1{
+    color: white;
+    font-size: 150px;
+}
+.nameBox>p{
+    color: white;
+    font-size: 40px;
+}
+nav{
+    width: 6vw;
+    height:60vh ;
+    background: #0000;
+    position: fixed;
+    left: 20px;
+    z-index: 100;
+}
+nav>div{
+    width: 4vw;
+    height: 4vw;
+    background: black;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>div>a>i{
+    color: white;
+    font-size: 20px;
+}
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+     background-image: linear-gradient(white,rgba(255, 153, 0, 0.966)); 
+}
+.aboutSection>main{
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid; */
+    display: flex;
+}
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid black; */
+    background-color: rgba(255, 246, 246, 0.096);
+    border-radius: 30px;
+    margin: 10px;
+}
+.about{
+    width: 80%;
+    height: 60%;
+    /* background-color: lightcoral; */
+    display: flex;
+}
+.aboutArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+    color:beige;
+}
+.about>div{
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid; */
+    font-size: small;
+     padding: 30px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-radius: 30px;
+    margin: 10px;
+}
+.about li{
+    /* padding: 5px; */
+    font-size: small;
+}
+.about ul{
+    /* padding-top: 50px; */
+}
+.aboutSection>h1{
+    font-size: 30px;
+}
+.aboutArticle>p{
+    font-size: 10px;
+
+}
+.projects{
+    width: 100%;
+    height: 100vh;
+     background-image: linear-gradient(rgba(255, 153, 0, 0.966),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.projects>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 20px;
+
+}
+.projects>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.projects>main>article>div{
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.projects>main>article>div>h1{
+    font-size: 20px;
+
+}
+.projects>main>article>div>p{
+    font-size: 15px;
+}
+.experience,.achievements,.contact{
+    width: 100%;
+    height: 100vh;
+     background-image:linear-gradient(white,rgba(255, 153, 0, 0.966));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.experience>main,.achievements>main,.contact>main{
+    width: 80%;
+    height: 80%;
+    border: black solid 3px;
+}
+.experience>main>h1{
+font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 20px;
+}
+.experience>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.experience>main>article>h3{
+    font-size: 25px;
+}
+.experience>main>article>p{
+    font-size: 20px;
+}
+.achievements{
+    width: 100%;
+    height: 100vh;
+     background-image: linear-gradient(rgba(255, 153, 0, 0.966),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievements>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.achievements>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 20px;
+
+}
+.achievements>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.13);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.achievements>main>article>div{
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.achievements>main>article>div>h1{
+    font-size: 20px;
+
+}
+.achievements>main>article>div>p{
+    font-size: 15px;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact>main{
+    width: 80%;
+    height: 80%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+.contact>main>h1{
+font-size: 10px;
+text-align: center;
+text-decoration:underline;
+color: beige;
+padding: 20px;
+}
+.contact>main>article{
+    width: 80%;
+    height: 80%;
+    background-color: #0000;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.info,.contactform{
+    width: 45%;
+    height: 85%;
+    background-color: #00000020;
+    padding: 20px;
+}
+.info p{
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+.info a{
+    color: wheat;
+}
+.allLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.allLinks a{
+    color: rgb(196,196,196);
+    padding-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+input,textarea{
+    color: rgba(196,196,196);
+    height:30px;
+    background-color: rgba(0, 0, 0, 0.425);
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+textarea{
+    height: 100px;
+}
+form>a{
+    display: inline-block;
+    color: rgba(196,196,196);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+}
